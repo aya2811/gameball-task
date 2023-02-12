@@ -1,0 +1,23 @@
+<div class="screen">
+    <div class="sidebar">
+    <app-nav 
+        [Username]="Username" 
+        [UserAccount]="UserAccount" 
+        [Categories]="Categories"
+        (SelectedCategoryChanged)="onSelectedCategoryChanged($event)">
+    </app-nav>
+    </div>
+    <div class="main">
+        <app-main [Username]="Username" 
+        [ActiveCategory]="ActiveCategory" 
+        [Subcategories]="Subcategories"
+        [Products]="Products"
+        (SelectedSubCategoryChanged)="onSelectedSubCategoryChanged($event)"
+        (SelectedSortChanged)="onSelectedSortChanged($event)"
+        (SelectedPrev)="onSelectedPrev($event)"
+        (SelectedNext)="onSelectedNext($event)"
+        
+        ></app-main>
+    </div>
+</div>
+

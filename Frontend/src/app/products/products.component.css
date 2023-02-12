@@ -1,0 +1,233 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 24px;
+    
+    width: 900px;
+    height: 708px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 900px;
+    height: 648px;
+    
+    background: #FDFCFC;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 582px;
+    height: 648px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.cell{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px 16px 0px;
+    gap: 12px;
+    
+    width: 900px;
+    height: 72px;
+    
+    border-bottom: 1px solid #EAECF0;
+    align-self: stretch;
+    /* Inside auto layout */
+}
+.cell1-text{
+    width: 700px;
+    height: 20px;
+    
+    /* Text sm/Medium */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #101828;
+    
+    
+    /* Inside auto layout */
+    
+}
+.cell2-text{
+    width: 400px;
+    height: 20px;
+    
+    /* Text sm/Normal */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #039855;
+    
+    
+    /* Inside auto layout */
+    
+}
+.cell3-button{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 8px;
+    
+    width: 100px;
+    height: 36px;
+    
+    background: #FDF8F5;
+    border: 1px solid #FDF2EC;
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.cell3-text{
+    width: 60px;
+    height: 20px;
+    
+    /* Text sm/Medium */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #FE6215;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 0px;
+    gap: 20px;
+    
+    width: 911px;
+    height: 60px;
+    
+    border-top: 1px solid #EAECF0;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.prev{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 86px;
+    height: 20px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.next{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 60px;
+    height: 20px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.text{
+    width: 58px;
+    height: 20px;
+    
+    /* Text sm/Medium */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #667085;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

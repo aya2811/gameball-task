@@ -1,0 +1,32 @@
+<div class="header">
+    <div class="content">
+        <div class="text-group">
+            <span class = title> Food</span>
+            <span class = supporting-text> Welcome back, {{Username}}!</span>
+        </div>
+    </div>
+</div>
+<div class="tabs-filters">
+    <div class="button-group" id ="container" *ngIf="Subcategories.length>0">
+        <div *ngFor="let subcategory of Subcategories"
+        (click)="onSelectedSubCategoryChanged(subcategory.name)" >
+
+                <div class="tab" [ngClass]="{changeBackground: subcategory.name === ActiveSubCategory}">
+                    <span class="tab-text" [ngClass]="{changeColor: subcategory.name === ActiveSubCategory}">{{subcategory.name}}</span>
+
+                </div>
+        </div>
+    </div>
+    <div class="dropdown filters">
+        <a class ='filter-button'>
+                <img src="/assets/filter-lines.png">
+                <div class="filter-text">Sort By</div>
+        </a>
+        <div class="dropdown-content">
+            <a (click) ="onSelectedSortChanged('name','Asc')">Name, A-Z</a>
+            <a (click) ="onSelectedSortChanged('name','Desc')">Name, Z-A</a>
+            <a (click) ="onSelectedSortChanged('price','Asc')">Price, low-high</a>
+            <a (click) ="onSelectedSortChanged('price','Desc')">Price, high-low</a>
+        </div>    
+    </div>
+</div>

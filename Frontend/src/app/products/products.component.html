@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="content" >
+        <div class="col">
+            <ng-container *ngFor="let product of Products">
+                    <div class="cell"> 
+                        <div class = "cell1-text">{{product.name}}</div> 
+                        <div class = "cell2-text">${{product.price}}</div>
+                        <div class = "cell3-button">
+                            <span class="cell3-text" (click)="alert()">Buy Now</span>
+                        </div> 
+                    </div>
+            </ng-container>
+        </div>
+    </div>
+    <div class="pagination">
+        <div class="prev" (click)="onSelectedPrev()">
+            <img src="/assets/arrow-left.png" alt="">
+            <span class="text"> previous </span>
+        </div>
+        <div class="next" (click)="onSelectedNext()">
+            <span class="text"> next </span>
+            <img src="/assets/arrow-right.png" alt="">
+        </div>
+    </div>
+</div>

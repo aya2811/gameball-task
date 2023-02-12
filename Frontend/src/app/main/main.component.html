@@ -1,0 +1,20 @@
+<div class="header">
+    <div class="container">
+        <app-header 
+        [Username]="Username" 
+        [ActiveCategory]="ActiveCategory"
+        [Subcategories]="Subcategories"
+        (SelectedSubCategoryChanged)="onSelectedSubCategoryChanged($event)"
+        (SelectedSortChanged)="onSelectedSortChanged($event)"
+         ></app-header>
+    </div>
+    <div class ="section">
+        <app-products 
+        [ActiveCategory]="ActiveCategory" 
+        [ActiveSubCategory]="ActiveSubCategory" 
+        [Products]="Products"
+        (SelectedPrev)="onSelectedPrev($event)"
+        (SelectedNext)="onSelectedNext($event)"
+        ></app-products>
+    </div>
+</div>
