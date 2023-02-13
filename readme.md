@@ -35,6 +35,14 @@
 
 <img src="/images/screenshot.PNG">
 
+* It is an ecommerce website that will be selling food and electronics as a start and later new items can be added to our items offering. 
+
+#### Features
+
+* There is an option to Sort Items by (price or name) in ascending or descending order.
+* There is a pagination with next and prev buttons. Also, it's implemented at the server side.
+* Categories, Subcategories and Products are dynamically displayed based on the Database. 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
