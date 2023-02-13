@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://https://github.com/aya2811/gameball-task">
-    <img src="https://blog.gameball.co/wp-content/uploads/2020/05/Gameball-logo-and-text.png" alt="Logo" width="800" height="150">
+    <img src="https://blog.gameball.co/wp-content/uploads/2020/05/Gameball-logo-and-text.png" alt="Logo" width="1000" height="300">
   </a>
 
 <h3 align="center">Gambeall Technical Task</h3>
@@ -33,7 +33,7 @@
 
 ## About The Project
 
-[![Screen Shot][product-screenshot]]
+<img src="/images/screenshot.PNG">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,29 +103,29 @@ To get a local copy up and running follow these simple example steps.
 #### Structure
 
 Backend
-   |
-   |---- src 
-   |      |---- config 
-   |      |       |---- db.js
-   |      |
-   |      |---- controllers       
-   |      |       |---- category.controller.js
-   |      |       |---- product.controller.js
-   |      |       |---- sucategory.controller.js
-   |      |
-   |      |---- routes
-   |      |       |---- category.routes.js
-   |      |       |---- product.routes.js
-   |      |       |---- subcategory.routes.js
-   |      |       |---- index.js
-   |      |---- app.js
-   |       
-   |---- server.js
+|
+├── src 
+|   ├── config 
+|   |     ├── db.js
+|   |
+|   ├── controllers       
+|   |       ├── category.controller.js
+|   |       ├── product.controller.js
+|   |       ├── sucategory.controller.js
+|   |
+|   ├── routes
+|   |     ├── category.routes.js
+|   |     ├── product.routes.js
+|   |     ├── subcategory.routes.js
+|   |     ├── index.js
+|   ├── app.js
+|       
+├── server.js
   
 
 #### Database Design
 
-[![DB Schema][DB_schema]]]
+<img src="/images/DB_Schema.PNG">
 
 
 #### APIs
@@ -160,23 +160,19 @@ Backend
 #### Structure
 
 Frontend
-   |
-   |---- src 
-          |---- app `App Component contains main, nav components`
-          |       |---- main Component `Main section contains header, products`
-          |       |---- header Component `Top section in main`
-          |       |---- products Component `Middle section in main under the header`
-          |       |---- nav Component `SideNav at the left of the main section`
-          |       |---- Model `Contains models of objects`
-          |               |---- category.ts
-          |               |---- product.ts
-          |               |---- subcategory.ts
-          |        
-          |---- assets `Contains images used`
-
-
-
-
+|
+├── src 
+    ├── app `App Component contains main, nav components`
+    |       ├── main Component `Main section contains header, products`
+    |       ├── header Component `Top section in main`
+    |       ├── products Component `Middle section in main under the header`
+    |       ├── nav Component `SideNav at the left of the main section`
+    |       ├── Model `Contains models of objects`
+    |               ├── category.ts
+    |               ├── product.ts
+    |               ├── subcategory.ts
+    |        
+    ├── assets `Contains images used`
 
 
 
