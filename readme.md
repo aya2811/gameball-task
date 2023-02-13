@@ -134,20 +134,20 @@ Backend
 * GET /api/categories `To get all categories`
 
 * GET /api/subcategories `To get all subcategories`:
-    Query Params Options:
-    * category      `specify the category ex: Food or Electronics`
+    * Query Params Options:
+        * category      `specify the category ex: Food or Electronics`
 
-    Example:
-    * `/api/subcategories?category=Electronics`
+        Example:
+        * `/api/subcategories?category=Electronics`
 
 * GET /api/products `To get all products`: 
-    Query Params Options:
-    * category      `specify the category ex: Food or Electronics`
-    * subcategory   `specify the subcategory ex: Fruits or Vegetables`
-    * sortBy        `specify sorting parameter ex : price or name`
-    * orderBy       `specify order direction ex: Asc or Desc`
-    * limit         `specify limit of products to be retrieved ex: 10 `
-    * page          `specify page number to be retrieved ex: 1 or 2` 
+    * Query Params Options:
+      * category      `specify the category ex: Food or Electronics`
+      * subcategory   `specify the subcategory ex: Fruits or Vegetables`
+      * sortBy        `specify sorting parameter ex : price or name`
+      * orderBy       `specify order direction ex: Asc or Desc`
+      * limit         `specify limit of products to be retrieved ex: 10 `
+      * page          `specify page number to be retrieved ex: 1 or 2` 
 
     Example:
     * `/api/products?category=Food&subcategory=Fruits&sortBy=price&orderBy=desc&limit=2&page=0`
@@ -173,7 +173,7 @@ Frontend
     |               ├── product.ts
     |               ├── subcategory.ts
     |        
-    ├── assets                          #Contains images used
+    ├── assets                          # Contains images used
 ```
 
 
