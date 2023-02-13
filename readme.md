@@ -102,6 +102,7 @@ To get a local copy up and running follow these simple example steps.
 
 #### Structure
 
+```
 Backend
 |
 ├── src 
@@ -121,7 +122,7 @@ Backend
 |   ├── app.js
 |       
 ├── server.js
-  
+```
 
 #### Database Design
 
@@ -162,17 +163,17 @@ Backend
 Frontend
 |
 ├── src 
-    ├── app `App Component contains main, nav components`
-    |       ├── main Component `Main section contains header, products`
-    |       ├── header Component `Top section in main`
-    |       ├── products Component `Middle section in main under the header`
-    |       ├── nav Component `SideNav at the left of the main section`
-    |       ├── Model `Contains models of objects`
+    ├── app                             # App Component contains main, nav components
+    |       ├── main Component          # Main section contains header, products
+    |       ├── header Component        # Top section in main
+    |       ├── products Component      # Middle section in main under the header
+    |       ├── nav Component           # SideNav at the left of the main section
+    |       ├── Model                   # Contains models of objects
     |               ├── category.ts
     |               ├── product.ts
     |               ├── subcategory.ts
     |        
-    ├── assets `Contains images used`
+    ├── assets                          #Contains images used
 ```
 
 
