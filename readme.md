@@ -158,7 +158,7 @@ Backend
 
 
 #### Structure
-
+```
 Frontend
 |
 ├── src 
@@ -173,7 +173,7 @@ Frontend
     |               ├── subcategory.ts
     |        
     ├── assets `Contains images used`
-
+```
 
 
 
